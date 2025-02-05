@@ -1,0 +1,41 @@
+<RegistroProduto>:
+    orientation: "vertical"
+    padding: 20
+    spacing: 10
+
+    Label:
+        text: "ID do Produto:"
+    TextInput:
+        id: entrada_id
+        multiline: False
+
+    Label:
+        text: "Nome do Produto:"
+    TextInput:
+        id: entrada_nome
+        multiline: False
+
+    Label:
+        text: "Quantidade:"
+    TextInput:
+        id: entrada_quantidade
+        multiline: False
+
+    Label:
+        text: "Data de Vencimento (AAAA-MM-DD):"
+    TextInput:
+        id: entrada_data
+        multiline: False
+
+    BoxLayout:
+        size_hint_y: None
+        height: "40dp"
+        spacing: 10
+
+        Button:
+            text: "Salvar"
+            on_press: root.salvar_produto()
+
+        Button:
+            text: "Limpar Campos"
+            on_press: root.limpar_campos()
