@@ -6,7 +6,7 @@
 ✅ Cadastro, edição e exclusão de produtos
 ✅ Consulta de estoque em tempo real
 ✅ Geração de relatórios automatizados
-✅ Interface intuitiva (se aplicável)
+✅ Interface intuitiva
 ✅ Banco de dados local para armazenamento seguro
 
 🛠️ Tecnologias Utilizadas
